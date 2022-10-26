@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE listacompras SYSTEM "ejercicio5.dtd">
+<listacompras xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="ejercicio5.xsd">
+    <venta>
+        <ventaacredito>
+            <fechafinpago>22-04-2018</fechafinpago>
+            <cantidad>15000</cantidad>
+        </ventaacredito>
+    </venta>
+    <venta>
+        <ventainmediata>
+            <cantidad>120</cantidad>
+            <divisa>dolares</divisa>
+        </ventainmediata>
+    </venta>
+    <venta>
+        <ventaacredito>
+            <cantidad>28000</cantidad>
+        </ventaacredito>
+    </venta>
+</listacompras>

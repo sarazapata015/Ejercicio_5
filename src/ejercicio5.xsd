@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "listacompras">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "venta">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name = "ventaacredito">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type = "xs:string" name = "fechafinpago"/>
+                                        <xs:element type = "xs:short" name = "cantidad"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name = "ventainmediata">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type = "xs:short" name = "cantidad"/>
+                                        <xs:element type = "xs:string" name = "divisa"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
